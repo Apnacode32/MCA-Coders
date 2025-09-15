@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In | MCA Coders</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+  </head>
+  <body>
+    <div class="gradient-bg"></div>
+
+    <div class="form-container">
+      <form id="signInForm">
+        <h1>Sign In</h1>
+        <div class="social-container">
+          <a href="#" class="social"><i class="fab fa-google"></i></a>
+          <a href="#" class="social"><i class="fab fa-github"></i></a>
+        </div>
+        <span>or use your account</span>
+        <div class="input-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="signInEmail" placeholder="Email" required />
+        </div>
+        <div class="input-group">
+          <i class="fas fa-lock"></i>
+          <input
+            type="password"
+            id="signInPassword"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <a href="#" class="forgot-password">Forgot your password?</a>
+        <button type="submit">Sign In</button>
+        <div class="bottom-text">
+          Don't have an account? <a href="signup.html">Sign Up</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="home-link">
+      <a href="index.html">← Back to MCA Coders Home</a>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
